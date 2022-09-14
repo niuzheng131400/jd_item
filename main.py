@@ -1,7 +1,7 @@
 import pymysql
 import requests
-from jd_crawler.parser.search import parse_jd_item
-from jd_crawler.settings import MYSQL_CONF, HEADERS
+from jd_item.parser.search import parse_jd_item
+from jd_item.settings import MYSQL_CONF, HEADERS
 
 
 def saver(item_array):
